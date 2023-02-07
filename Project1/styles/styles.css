@@ -1,0 +1,132 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ overflow: hidden;
+}
+body {
+ font-family: "Poppins", sans-serif;
+ background-color: #d1d6e7;
+ height: 100vh;
+ width: 100vw;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+li {
+ list-style: none;
+ cursor: pointer;
+}
+
+a {
+ text-decoration: none;
+}
+button {
+ background-color: rgb(18, 155, 155);
+ color: #ffffff;
+ border: 1px solid rgb(217, 209, 240);
+ border-radius: 4px;
+ padding: 4px 10px;
+ font-weight: 700;
+ cursor: pointer;
+ width: fit-content;
+}
+
+button:hover {
+ background-color: rgb(6, 104, 104);
+}
+
+header {
+ padding: 15px;
+}
+nav {
+ display: flex;
+ width: 100%;
+ justify-content: space-around;
+ align-items: center;
+}
+nav a {
+ color: #faffff;
+ background-color: #92a5bf;
+}
+nav .logo {
+ font-weight: 700;
+ font-size: 25px;
+}
+nav ul {
+ display: flex;
+ align-items: center;
+ gap: 30px;
+ font-weight: 500;
+}
+nav ul :hover {
+ background-color: #8ba3c6;
+}
+.search {
+ display: flex;
+ gap: 30px;
+}
+input {
+ padding: 4px 10px;
+}
+.hero-sec {
+ display: flex;
+ align-items: center;
+}
+.h-l-sec {
+ width: 60%;
+ padding: 0px 114px;
+ justify-content: space-around;
+}
+.h-l-sec h1 {
+ font-weight: 800;
+ font-size: 38px;
+ margin-bottom: 16px;
+}
+.h-l-sec h1 span {
+ color: rgb(18, 155, 155);
+ font-weight: 900;
+ background-color: #dfdfe0;
+ padding: 0 15px;
+}
+.h-l-sec p {
+ font-weight: 500;
+ font-size: 30px;
+}
+
+.h-l-sec p span {
+ font-size: 25px;
+ font-weight: 700;
+ color: rgb(18, 155, 155);
+}
+.h-r-sec {
+ display: flex;
+ flex-direction: column;
+ width: 40%;
+ gap: 30px;
+ align-items: center;
+}
+.h-r-sec-btn {
+ display: flex;
+ gap: 30px;
+ align-items: center;
+}
+.h-r-sec-img {
+ height: 200px;
+ width: 200px;
+ border-radius: 50px;
+}
+footer {
+ font-weight: 600;
+ display: flex;
+ padding: 20px 0;
+ justify-content: space-around;
+ background-color: #99bdff;
+}
+footer ul {
+ display: flex;
+ align-items: center;
+ gap: 30px;
+ font-size: 30px;
+}
